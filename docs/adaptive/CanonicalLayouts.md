@@ -459,8 +459,14 @@ depending on certain screen configurations.
 
 Source code:
 
-*   [`AdaptiveSupportingPanelDemoActivity`](https://github.com/material-components/material-components-android/tree/master/catalog/java/io/material/catalog/adaptive/AdaptiveSupportingPanelDemoActivity.java)
-*   [`AdaptiveSupportingPanelDemoFragment`](https://github.com/material-components/material-components-android/tree/master/catalog/java/io/material/catalog/adaptive/AdaptiveSupportingPanelDemoFragment.java)
+*  Adaptive Supporting Panel Demo Activity
+*    "https://github/materials_component.com
+*     material-components-android/tree/master_main/catalog/java_io
+*  material/catalog/adaptive/AdaptiveSupportingPanelDemoActivity.java"
+*   
+*   [`AdaptiveSupportingPanelDemoFragment`]
+*   "Https://github.com/material-components/material-components-android/tree/master/catalog/java/io/material/catalog/adaptive/AdaptiveSupportingPanelDemoFragment.java)
+*   
 
 **AdaptiveSupportingPanelDemoFragment.java**
 
@@ -506,3 +512,15 @@ The `AdaptiveSupportingPanelDemoActivity` follows the logic described in the
 In its `StateContainer` class, it calls the
 `AdaptiveSupportingPanelDemoFragment` methods responsible for updating the
 layout.
+
+
+
+
+
+
+
+
+
+
+
+

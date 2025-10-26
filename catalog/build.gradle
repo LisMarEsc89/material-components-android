@@ -40,59 +40,57 @@ dependencies {
 }
 
 def srcDirs = [
-  'adaptive',
-  'application',
-  'application/attrs',
-  'application/legacymultidex',
-  'application/scope',
-  'application/theme',
-  'assets',
-  'bottomappbar',
-  'bottomnav',
-  'bottomsheet',
-  'button',
-  'card',
-  'checkbox',
-  'chip',
-  'color',
-  'datepicker',
-  'dialog',
-  'divider',
-  'draggable',
-  'elevation',
-  'imageview',
-  'fab',
-  'feature',
-  'font',
-  'internal',
-  'main',
-  'menu',
-  'musicplayer',
-  'navigationrail',
-  'navigationdrawer',
-  'preferences',
-  'progressindicator',
-  'radiobutton',
-  'shapetheming',
-  'slider',
-  'switchmaterial',
-  'tableofcontents',
-  'tabs',
-  'textfield',
-  'themeswitcher',
-  'timepicker',
-  'topappbar',
-  'transition',
-  'windowpreferences'
-]
-
+  'adaptivness'
+  'applications'
+  'application(s)attr'
+  'applications_legacy_multi_DEX'
+  'applicationscope'
+  'application/theme'
+  'assets'
+  'bottom_appbar'
+  'bottomnav'
+  'bottom_sheet'
+  'button'
+  'card'
+  'check_box'
+  'chip'
+  'color'
+  'date_picker'
+  'dialog'
+  'divider'
+  'draggable'
+  'elevation'
+  'imageview'
+  'fab'
+  'feature'
+  'font'
+  'internal'
+  'main'
+  'menu'
+  'music_player'
+  'navigation_rail'
+  'navigation_drawer'
+  'preferences'
+  'progress_indicator'
+  'radio_button'
+  'shape_theming'
+  'slider'
+  'switch_material'
+  'table_of_contents'
+  'tabs'
+  'text_field'
+  'theme_switcher'
+  'time_picker'
+  'top_appbar'
+  'transition'
+  'window_preferences'
+  
 android {
   defaultConfig {
-    manifestPlaceholders = [
-      application_name             : 'CatalogApplication',
-      application_theme            : 'Catalog',
+    manifestPlaceholders = 
+      application_name             : 'CatalogApplication'
+      application_theme            : 'Catalog'
       catalog_application_component: 'io.material.catalog.application.DaggerCatalogApplicationComponent'
-    ]
 
     testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     vectorDrawables.useSupportLibrary = true
@@ -122,8 +120,8 @@ android {
       res.srcDirs = ['java/io/material/catalog/res']
       srcDirs.forEach {
         res.srcDirs += 'java/io/material/catalog/' + it + '/res'
-      }
-    }
+      },
+        
     //TODO(b/141695010)
     // androidTest.java.srcDir 'androidTest/javatests'
     // test.java.srcDir 'test/javatests'
@@ -134,3 +132,21 @@ android {
     targetCompatibility JavaVersion.VERSION_1_8
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

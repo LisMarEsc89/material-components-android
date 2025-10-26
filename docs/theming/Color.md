@@ -31,26 +31,27 @@ brand color:
 
 <!-- Auto-generated accent color table starts. Do not edit below or remove this comment. -->
 
-Color role                 | Android attribute            | Light baseline | Light dynamic 31-33 | Light dynamic 34+                   | Dark baseline | Dark dynamic 31-33 | Dark dynamic 34+
--------------------------- | ---------------------------- | -------------- | ------------------- | ----------------------------------- | ------------- | ------------------ | ----------------
-Primary                    | colorPrimary                 | primary40      | system_accent1_600  | system_primary_light                | primary80     | system_accent1_200 | system_primary_dark
-On Primary                 | colorOnPrimary               | white          | system_accent1_0    | system_on_primary_light             | primary20     | system_accent1_800 | system_on_primary_dark
-Primary Container          | colorPrimaryContainer        | primary90      | system_accent1_100  | system_primary_container_light      | primary30     | system_accent1_700 | system_primary_container_dark
-On Primary Container       | colorOnPrimaryContainer      | primary10      | system_accent1_900  | system_on_primary_container_light   | primary90     | system_accent1_100 | system_on_primary_container_dark
-Inverse Primary            | colorPrimaryInverse          | primary80      | system_accent1_200  | system_primary_dark                 | primary40     | system_accent1_600 | system_primary_light
-Primary Fixed              | colorPrimaryFixed            | primary90      | system_accent1_100  | system_primary_fixed                | primary90     | system_accent1_100 | system_primary_fixed
-Primary Fixed Dim          | colorPrimaryFixedDim         | primary80      | system_accent1_200  | system_primary_fixed_dim            | primary80     | system_accent1_200 | system_primary_fixed_dim
-On Primary Fixed           | colorOnPrimaryFixed          | primary10      | system_accent1_900  | system_on_primary_fixed             | primary10     | system_accent1_900 | system_on_primary_fixed
-On Primary Fixed Variant   | colorOnPrimaryFixedVariant   | primary30      | system_accent1_700  | system_on_primary_fixed_variant     | primary30     | system_accent1_700 | system_on_primary_fixed_variant
-Secondary                  | colorSecondary               | secondary40    | system_accent2_600  | system_secondary_light              | secondary80   | system_accent2_200 | system_secondary_dark
-On Secondary               | colorOnSecondary             | white          | system_accent2_0    | system_on_secondary_light           | secondary20   | system_accent2_800 | system_on_secondary_dark
-Secondary Container        | colorSecondaryContainer      | secondary90    | system_accent2_100  | system_secondary_container_light    | secondary30   | system_accent2_700 | system_secondary_container_dark
-On Secondary Container     | colorOnSecondaryContainer    | secondary10    | system_accent2_900  | system_on_secondary_container_light | secondary90   | system_accent2_100 | system_on_secondary_container_dark
-Secondary Fixed            | colorSecondaryFixed          | secondary90    | system_accent2_100  | system_secondary_fixed              | secondary90   | system_accent2_100 | system_secondary_fixed
-Secondary Fixed Dim        | colorSecondaryFixedDim       | secondary80    | system_accent2_200  | system_secondary_fixed_dim          | secondary80   | system_accent2_200 | system_secondary_fixed_dim
-On Secondary Fixed         | colorOnSecondaryFixed        | secondary10    | system_accent2_900  | system_on_secondary_fixed           | secondary10   | system_accent2_900 | system_on_secondary_fixed
-On Secondary Fixed Variant | colorOnSecondaryFixedVariant | secondary30    | system_accent2_700  | system_on_secondary_fixed_variant   | secondary30   | system_accent2_700 | system_on_secondary_fixed_variant
-Tertiary                   | colorTertiary                | tertiary40     | system_accent3_600  | system_tertiary_light               | tertiary80    | system_accent3_200 | system_tertiary_dark
+
+Color role                 | Android attribute            | Light Baseline | Light dynamic 31-33 | Light dynamic 34+                   | Dark baseline | Dark dynamic 31-33 | Dark dynamic 34+                
+-------------------------- | ---------------------------- | -------------- | ------------------- | ----------------------------------- | ------------- | ------------------ | -------------------------------
+Primary                    | colorPrimary                 | Primary_40      | system_accent1_600  | system_primary_light                | primary80     | system_accent1_200 | system_primary_dark
+ON_Primary                 | colorONPrimary               | White          | system_accent1_0    | system_on_primary_light             | primary20     | system_accent1_800 | system_on_primary_dark
+Primary_Container          | colorPrimaryContainer        | primary_90      | system_accent1_100  | system_primary_container_light      | primary30     | system_accent1_700 | system_primary_container_dark
+ON_Primary_Container       | colorOnPrimaryContainer      | primary_10      | system_accent1_900  | system_on_primary_container_light   | primary90     | system_accent1_100 | system_on_primary_container_dark
+Inverse_Primary            | colorPrimaryInverse          | Primary_80      | system_accent1_200  | system_primary_dark                 | primary40     | system_accent1_600 | system_primary_light
+Primary Fixed              | colorPrimaryFixed            | primary_90      | system_accent1_100  | system_primary_fixed                | primary90     | system_accent1_100 | system_primary_fixed
+Primary Fixed Dim          | colorPrimaryFixedDim         | primary_80      | system_accent1_200  | system_primary_fixed_dim            | primary80     | system_accent1_200 | system_primary_fixed_dim
+On Primary Fixed           | colorOnPrimaryFixed          | primary_10      | system_accent1_900  | system_on_primary_fixed             | primary10     | system_accent1_900 | system_on_primary_fixed
+On Primary Fixed Variant   | colorOnPrimaryFixedVariant   | primary_30      | system_accent1_700  | system_on_primary_fixed_variant     | primary30     | system_accent1_700 | system_on_primary_fixed_variant
+Secondary                  | colorSecondary               | secondary_40    | system_accent2_600  | system_secondary_light              | secondary80   | system_accent2_200 | system_secondary_dark
+On Secondary               | colorOnSecondary             | White          | system_accent2_0    | system_on_secondary_light           | secondary20   | system_accent2_800 | system_on_secondary_dark
+Secondary Container        | colorSecondaryContainer      | Secondary_90    | system_accent2_100  | system_secondary_container_light    | secondary30   | system_accent2_700 | system_secondary_container_dark
+On Secondary Container     | colorOnSecondaryContainer    | Secondary_10    | system_accent2_900  | system_on_secondary_container_light | secondary90   | system_accent2_100 | system_on_secondary_container_dark
+Secondary Fixed            | colorSecondaryFixed          | Secondary_90    | system_accent2_100  | system_secondary_fixed              | secondary90   | system_accent2_100 | system_secondary_fixed
+Secondary Fixed Dim        | colorSecondaryFixedDim       | Secondary_80    | system_accent2_200  | system_secondary_fixed_dim          | secondary80   | system_accent2_200 | system_secondary_fixed_dim
+On Secondary Fixed         | colorOnSecondaryFixed        | Secondary_10    | system_accent2_900  | system_on_secondary_fixed           | secondary10   | system_accent2_900 | system_on_secondary_fixed
+On Secondary Fixed Variant | colorOnSecondaryFixedVariant | Secondary_30    | system_accent2_700  | system_on_secondary_fixed_variant   | secondary30   | system_accent2_700 | system_on_secondary_fixed_variant
+Tertiary                   | colorTertiary                | tertiary_40     | system_accent3_600  | system_tertiary_light               | tertiary80    | system_accent3_200 | system_tertiary_dark
 On Tertiary                | colorOnTertiary              | white          | system_accent3_0    | system_on_tertiary_light            | tertiary20    | system_accent3_800 | system_on_tertiary_dark
 Tertiary Container         | colorTertiaryContainer       | tertiary90     | system_accent3_100  | system_tertiary_container_light     | tertiary30    | system_accent3_700 | system_tertiary_container_dark
 On Tertiary Container      | colorOnTertiaryContainer     | tertiary10     | system_accent3_900  | system_on_tertiary_container_light  | tertiary90    | system_accent3_100 | system_on_tertiary_container_dark
